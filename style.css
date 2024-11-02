@@ -1,0 +1,136 @@
+.header-container{
+
+    width: 1640px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 20px;
+    outline: solid greenyellow;
+    flex-direction: row;
+   
+}
+.header-wrap{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.list-item{
+margin-right: 40px;
+}
+.link-item{
+margin-right: 40px;
+}
+.header-adrr{
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    margin-left: 400px;
+}
+.list-itemm{
+ margin-right: 40px;
+ margin-left: 300px;
+}
+.list-itemm: :last-child{
+margin-right: 0px;
+}
+
+.link-itemm{
+    color: var(--axent-color);
+}
+.section-list{
+    width: 1640px;
+    margin: 0 auto;
+    padding: 0 20px;
+    outline: solid greenyellow;
+    display: block;
+    background-color: #2F303A;
+    height: 600px;
+    
+}
+.section1{
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1640px;
+    outline: solid greenyellow;
+}
+.what-we-do{
+    width: 1640px;
+    margin: 0 auto;
+    padding: 0 20px;
+    outline: solid greenyellow;
+}
+.our-team{
+    width: 1640px;
+    margin: 0 auto;
+    padding: 0 20px;
+    outline: solid greenyellow;
+}
+.footer{
+    width: 1640px;
+    height: 252px;
+    margin: 0 auto;
+    padding: 0 20px;
+    outline: solid greenyellow;
+    background-color: #2F303A;
+}
+.service-list{
+    display: flex;
+    justify-content: center;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+}
+.header-con{
+    display: flex;
+}
+.footer-adr{
+    color: white;
+}
+.logo{
+     display: flex;
+    color: white;
+}
+.adr{
+    color: white;
+}
+.tel-adr{
+    color: white;
+}
+.nav-link{
+    display: inline block;
+    background-color: #2196F3;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    display: flex;
+    justify-content: center;
+  position: relative;
+  top: 300px;
+ 
+}
+.button{
+   
+   position: relative;
+   top: 16px;
+   color: white;
+}
+
+.h1{
+ display: flex;
+ justify-content: center;
+ color: white;
+ position: relative;
+ top: 280px;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+}
+.h3{
+    display: flex;
+    justify-content: center;
+}
