@@ -12,96 +12,109 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="header-container">
-         <div class="header-wrap">
-        <a href="https://www.figma.com/design/kdAuQh8S4CzHE70obav3Wc/WebStudio?node-id=0-1&node-type=canvas&t=rNwgRptMeFSesVKI-0"><span style="color: #2196F3;">Web</span>Studio</a>
+    <header class="header">
+         <div class="container">
+        <a class="header-logo" href="./index.html"><span style="color: #2196F3;">Web</span>Studio</a>
         <nav>
-            <ul class="header-con">
+            <ul class="header-item">
                 <li class="list-item"><a class="link-item" href="/">Студія</a></li>
                 <li class="list-item"><a  class="link-item"href="/">Портфоліо</a></li>
                 <li class="list-item"><a  class="link-item"href="/">Контакти</a></li>
             </ul>
-                </nav>
-                <nav class="header-adr">
                     <ul class="header-adrr">
-                <li class="list-itemm"><a  class="link-itemm"href="/">info@devstudio.com</a></li>
-                <li class="list-itemmy1"><a  class="link-itemmy1"href="/">+38 096 111 11 11</a></li>
+                <li class="list-item"><a href="https://www.amazon.se/?tag=vv-se-avast-tiles-21&linkCode=ll2&linkId=ae68603519f0d9c61fd75800a22566f6&language=sv_SE&ref_=as_li_ss_tl"  class="link-item"href="/">info@devstudio.com</a></li>
+                <li class="list-item"><a  class="link-item"href="/">+38 096 111 11 11</a></li>
                    </ul>
                 </nav>
     </div>
     </header>
-        <section class="section-list">
-        <h1 class="h1">Ефективні рішення для вашого бізнесу</h1>
-        <nav class="nav-link">
-        <a href="https://www.figma.com/file/kdAuQh8S4CzHE70obav3Wc/WebStudio?type=design&node-id=0-1&mode=design&t=rPmC7T7DYO4SMKEp-0">
-        <button style="background-color: #2196F3;" class="button">Замовити послугу</button>
-    </nav>
-        </a>
-    </section>
-
     <main>
+         <section class="section-list">
+            <div class="container">
+        <h1 class="h1">Ефективні рішення для вашого бізнесy</h1>
+        <nav class="nav-link">
+        <button style="background-color: #2196F3;" class="button" type="button" data-modal-open>Замовити послугу</button>
+   <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="btn-close" data-modal-close>x</button>
+        <h1>ти лох</h1>
+    </div>
+   </div> 
+    </nav>
+        </div>
+    </section>
         <section class="section1">
+            <div class="container">
             <ul class="service-list">
                 <li>
-                    <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
-                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <h4 class="h4-list">УВАГА ДО ДЕТАЛЕЙ</h4>
+                    <p class="p-lists">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li>
-                    <h4>ПУНКТУАЛЬНІСТЬ</h4>
-                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <h4 class="h4-list">ПУНКТУАЛЬНІСТЬ</h4>
+                    <p class="p-lists">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li>
-                    <h4>ПЛАНУВАННЯ</h4>
-                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <h4 class="h4-list">ПЛАНУВАННЯ</h4>
+                    <p class="p-lists">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li>
-                    <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
-                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <h4 class="h4-list">СУЧАСНІ ТЕХНОЛОГІЇ</h4>
+                    <p class="p-lists">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
+            </div>
         </section>
         <section class="what-we-do">
+             <div class="container">
             <h2 class="h2">Чим ми займаємося</h2>
             <ul class="about">
                 <li><img src="./imges/img 1.png" alt="What we do" width="370"></li>
                 <li><img src="./imges/img 2.png" alt="What we do" width="370"></li>
                 <li><img src="./imges/img 3.png" alt="What we do" width="370"></li>
             </ul>
+            </div>
         </section>
         <section class="our-team">
+            <div class="container">
            <h3 class="h3">Наша команда</h3>
            <ul class="team">
             <li>
-                <img src="./imges/imgs 1.jpg" alt="photo Ігор Дем'яненко" width="270">
+                <img class="team-img" src="./imges/imgs 1.jpg" alt="photo Ігор Дем'яненко" width="270">
                 <h5 class="name">Ігор Дем'яненко</h5>
                 <h6 class="work">Product Designer</h6>
             </li>
             <li>
-                <img src="./imges/imgs 2.jpg" alt="photo Ольга Рєпіна" width="270">
+                <img class="team-img" src="./imges/imgs 2.jpg" alt="photo Ольга Рєпіна" width="270">
                 <h5 class="name">Ольга Рєпіна</h5>
                 <h6 class="work">Frontend Developer</h6>
             </li>
             <li>
-                <img src="./imges/imgs 3.jpg" alt="photo Микола Тарасов" width="270">
+                <img class="team-img" src="./imges/imgs 3.jpg" alt="photo Микола Тарасов" width="270">
                 <h5 class="name">Микола Тарасов</h5>
                 <h6 class="work">Marketing</h6>
             </li>
             <li>
-                <img src="./imges/imgs 4.jpg" alt="photo Михайло Єрмаков" width="270">
+                <img class="team-img" src="./imges/imgs 4.jpg" alt="photo Михайло Єрмаков" width="270">
                 <h5 class="name">Михайло Єрмаков"</h5>
                 <h6 class="work">UI Designer</h6>
             </li>
            </ul>
+           </div>
         </section>
     </main>
     <footer class="footer">
+        <div class="container">
         <address class="footer-adr">
-            <a class="logo" href="https://www.figma.com/design/kdAuQh8S4CzHE70obav3Wc/WebStudio?node-id=0-1&node-type=canvas&t=rNwgRptMeFSesVKI-0">WebStudio</a> 
+            <a class="footer-logo" href="./index.html"><span style="color: #2196F3;">Web</span><span style="color: white;">Studio</span></a>
             <p class="text">м. Київ, пр-т Лесі Українки, 26</p>
             <a class="adr" href="mailto:info@devstudio.com">info@devstudio.com</a>
             <br>
+            <br>
             <a class="tel-adr" href="tel+380961111111">+380 96 111 11 11</a>
         </address>
+        </div>
     </footer>
+       <script src="./modal.js"></script>
 </body>
 </html>
