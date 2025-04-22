@@ -2,6 +2,7 @@
   width: 1260px;
   margin: 0 auto;
   padding: 0 15px;
+  outline: solid skyblue;
 }
 .header-container {
   display: flex;
@@ -25,7 +26,26 @@
   padding-right: 350px;
   padding-left: 100px;
 }
+.icon-header{
+  display: block;
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+  margin-right: 10px;
+  position: relative;
+  bottom: -1px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+.icon-header:hover{
+fill: #2196F3;
+}
+.icon-header-wrap{
+  width: 10px;
+  height: 16px;
+  position: relative;
+  top: -2px;
+}
 .list-item {
   display: flex;
   font-family: "Roboto";
@@ -152,7 +172,130 @@ background-position: center;
 background-image: url(./imges/antenna\ 1.png);
 margin-bottom: 30px;
 }
+.social-item{
+  fill: rgb(175, 177, 184);
+  border-radius: 50%;
+  padding: 12px;
+  color: rgb(175, 177, 184);
+}
+.social-icons{
+  display: flex;
+  gap: 10px;
+justify-content: center;
+}
+.social-item:hover{
+  background-color: #2196F3;
 
+}
+.social-item:hover .svg-icon{
+  fill: white;
+}
+.svg-icon{
+  display: block;
+  fill: rgb(175, 177, 184);
+  width: 20px;
+  height: 20px;
+}
+.clients-section{
+  padding: 0 auto;
+  margin: 0 20px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  text-align: center;
+
+}
+.clients-icons{
+display: flex;
+justify-content: center;
+gap: 30px;
+padding-top: 40px;
+
+}
+.clients-h1{
+  font-family: "Roboto";
+  font-weight: 700;
+  size: 36px;
+  line-height: 100%;
+  letter-spacing: 3%;
+}
+.clients-item{
+padding: 15px 30px;
+border: 1px solid hsla(227, 6%, 70%, 1);
+border-radius: 4%;
+
+}
+.clients-item:hover{
+  border: 1px solid hsla(207, 90%, 54%, 1);
+}
+.icon-itm{
+  display: block;
+  width: 106px;
+  height: 60px;
+  fill: #AFB1B8;
+}
+/*
+.svg-icon2{
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff13;
+  fill: white;
+  margin-bottom: 25px;
+  padding: 10px;
+  
+}
+
+.svg-icon12{
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 25%;
+  background-color: #ffffff13;
+  fill: white;
+  margin-bottom: 25px;
+  padding: 10px;
+  
+}
+
+.svg-icon:hover{
+fill: #fff;
+background-color: rgb(33, 150, 243);
+border-radius: 50%;
+}
+.svg-icon2:hover{
+fill: #fff;
+background-color: rgb(33, 150, 243);
+border-radius: 40%;
+}
+
+.svg-icon12:hover{
+fill: #fff;
+background-color: rgb(33, 150, 243);
+border-radius: 25%;
+}
+
+.svg-icon1{
+   display: inline-flex;
+  width: 44px;
+  height: 44px;
+  fill: rgb(175, 177, 184);
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.svg-icon1:hover{
+  fill: #fff;
+background-color: rgb(33, 150, 243);
+border-radius: 25%;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+*/
 .service-item:nth-child(2)::before{
   content: "";
   display: block;
@@ -189,6 +332,25 @@ background-image: url(./imges/Group.png);
 margin-bottom: 30px;
 }
 
+ .footer-icons{
+ border-radius: 50%;
+  background-color: #FFFFFF1A;
+ }
+ .icn-footer-part{
+  display: block;
+  fill: white;
+ }
+ .footer-social{
+  margin-top: -108px;
+  margin-left: 300px;
+  
+ }
+ .footer-icons-wrap{
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+ }
+
 .about {
   display: flex;
   justify-content: space-between;
@@ -196,7 +358,6 @@ margin-bottom: 30px;
 .team {
   display: flex;
   justify-content: space-between;
-
 }
 
 
@@ -278,17 +439,28 @@ margin-bottom: 30px;
 .team-list {
   background-color: #fff;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 30%), 0 1px 1px 0 rgba(0, 0, 0, 30%);
+  padding-bottom: 30px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 .work {
     display: flex;
-  padding-bottom: 17px;
   font-family: "Roboto";
+  padding-bottom: 13px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   justify-content: center;
   color: #757575;
 }
+.h4-footer-join{
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  color: white;
+}
+
 
 .backdrop {
   position: fixed;
