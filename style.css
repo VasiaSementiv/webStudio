@@ -131,8 +131,6 @@ fill: #2196F3;
   padding-bottom: 100px;
 }
 .footer {
-  margin: 0 auto;
-  padding: 0 20px;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -143,11 +141,19 @@ font-family: "Raleway";
   font-size: 26px;
   line-height: 1.2;
 }
-.text {
+.list {
   display: flex;
-  padding-top: 23px;
-  padding-bottom: 12px;
   color: #ffffff;
+  padding-top: 10px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.footer-navigation{
+  display: flex;
+  color: #ffffff;
+  padding-top: 10px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
@@ -232,6 +238,110 @@ border-radius: 4%;
   width: 106px;
   height: 60px;
   fill: #AFB1B8;
+}
+
+
+
+
+
+.footer {
+  background-color: #2f303a;
+  padding: 60px 0;
+  color: white;
+}
+
+.container-footer {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  
+  
+}
+
+
+.footer-left {
+  max-width: 300px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+
+.logo-accent {
+  color: #2196f3;
+}
+
+.address {
+  margin-top: 20px;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.contact-link {
+  color: #FFFFFF99;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+
+.footer-right {
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.join-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.social-link {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 44px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.social-link:hover {
+  background-color: #2196f3;
+}
+
+@media (max-width: 768px) {
+  .container-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-right {
+    margin-top: 40px;
+
+  }
 }
 /*
 .svg-icon2{
@@ -336,7 +446,7 @@ margin-bottom: 30px;
  border-radius: 50%;
   background-color: #FFFFFF1A;
  }
- .icn-footer-part{
+ .svg-footer-wrap{
   display: block;
   fill: white;
  }
@@ -459,6 +569,7 @@ margin-bottom: 30px;
   font-size: 14px;
   line-height: 100%;
   color: white;
+  padding-bottom: 10px;
 }
 
 
