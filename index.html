@@ -48,23 +48,17 @@
       </div>
     </header>
     <main>
-      <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-          <button class="btn-close" data-modal-close>x</button>
-          <h2>nnnnnnnnn</h2>
-        </div>
-      </div>
+     
       <section class="section-list">
         <div class="container">
           <h1 class="h1">Ефективні рішення для вашого бізнесy</h1>
-          <button
-            style="background-color: #2196f3"
-            class="button"
-            type="button"
-            data-modal-open
-          >
-            Замовити послугу
-          </button>
+          <button style="background-color: #2196f3" class="button btn-open" type="button" data-modal-open>Замовити послугу</button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="btn-close" data-modal-close>Х</button>
+              <h2 class="h2-modal">Залиште свої дані, ми вам передзвонимо</h2>
+            </div>
+          </div>
         </div>
       </section>
       <section class="section1">
@@ -268,16 +262,7 @@
           </div>
         </section>
     </main>
-    <!DOCTYPE html>
-<html lang="uk">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Футер WebStudio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <script src="./modal.js"></script>
   <footer class="footer">
     <div class="container">
       <div class="container-footer">

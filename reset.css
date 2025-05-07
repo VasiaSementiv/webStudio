@@ -9,7 +9,7 @@
     --maintext: #ffffff;
     --contacts: rgba(255, 255, 255, 0.6);
     --border: #eeeeee;
-    --heder-shadow: #ececec;
+    --header-shadow: #ececec;
 }
 h1, h2, h3, h4, h5, h6, p, ul, li, button, img, a {
     margin: 0;
